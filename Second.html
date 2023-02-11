@@ -1,17 +1,16 @@
 <html>
 
 <head>
-
-<title> My Second Page </title>
-
+	<title> My Second Page </title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
-<style>
+<!-- <style>
 
-.myDiv1 {
+* .myDiv1 {
 background-color:lightblue;
 text-align:center;
-color:red; <!-- color = text color -->
+color:red;
 }
 
 #myDiv1 {
@@ -20,34 +19,47 @@ text-align:left;
 color:blue;
 }
 
-</style>
+</style> -->
 
 <body>
 
-<div class="myDiv1"> <!-- class - .(dot) operator and can use multiple -->
+	<div class="myDiv1"> <!-- class - .(dot) operator and can use multiple -->
+		<h2> This is my Heading 2 tag in first division </h2>
+		<p><span style="color: azure">This is some text in a division element</span></p>
+	</div>
 
-	<h2> This is my Heading 2 tag in first division </h2>
+	<div id="myDiv1"> <!-- id - #(hash) operator and unique use for one time only-->
+		<h3> This is my Heading 3 tag in second division </h3>
+		<p><span style="color: azure">This is some text in a division element</span></p>
+	</div>
 
-	<p> This is some text in a division element </p>
+	<a href = "https://360digitmg.com/" target="_blank"><span style="color: azure">Please visit 360DigiTMG website by 
+		clicking here</span></a>
 
-</div>
+	<center>
+		<img src="FSWD.jpeg" width="600" height="400" alt="Full Stack Web Developer">
+	</center>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
 
-<div id="myDiv1"> <!-- id - #(hash) operator and unique use for one time only-->
+	<div>
+		<p>This is new paragraph for combinator explanation</p>
+		<p>This is second paragraph for combinator explanation</p>
+	</div>
+	<p><span style="color: azure">This is outside the division tag 1</span></p>
 
-	<h3> This is my Heading 3 tag in second division </h3>
+	<p><span style="color: azure">This is outside the division tag 2</span></p>
 
-	<p> This is some text in a division element </p>
+	<p><span style="color: azure">This is outside the division tag 3</span></p>
 
-</div>
-
-<a href = "https://360digitmg.com/" target="_blank"> Please visit 360DigiTMG website by clicking here </a>
-
-<center>
-
-<img src="FSWD.jpeg" width="600" height="400" alt="Full Stack Web Developer">
-
-</center>
-
+	<div class="dropdown">
+		<button class="dropbtn">DROPDOWN</button>
+		<div class="dropdown-content">
+			<a href="#link1">LINK 1</a>
+			<a href="#link2">LINK 2</a>
+			<a href="#link3">LINK 3</a>
+		</div>
+	</div>
 </body>
 
 </html>

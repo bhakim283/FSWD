@@ -1,11 +1,83 @@
-h1{
+.myDiv1 {
+    background-color:lightblue;
+    text-align:center;
+    color:red; /* color = text color */
+    border: 5pt solid black;
+    }
+    
+    #myDiv1 {
+    background-color:gray;
+    text-align:left;
+    color:blue;
+    border: 5px solid green;
+    }
+
+h2,h3{
     color:goldenrod;
-    text-align: right;
-    font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h2{
+body{
+    background-color: blue;
+}
+
+div~p{
+    color: yellowgreen;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+}
+
+/*div{
+    width: 100px;
+    height: 400px;
+    border: 5px solid brown;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}*/
+
+/*div{
+    width: 200px;
+    border: 10px solid brown;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    outline-style: solid;
+    outline-color: yellow;
+}*/
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropbtn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 2px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    position: absolute;
+}
+
+.dropdown-content a{
+    color: goldenrod;
+    padding: 12px 16px;
+    margin: 10px;
+    border: 5px solid brown;
+    outline-style: dashed;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: green;
 }
